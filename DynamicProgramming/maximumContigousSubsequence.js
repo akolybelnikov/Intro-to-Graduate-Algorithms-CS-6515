@@ -11,26 +11,22 @@ For the preceding example, the answer would be 10, −5, 40, 10, with a sum of 5
 (Hint: For each j ∈ {1, 2, . . . , n}, consider contiguous subsequences ending exactly at position j.)
  */
 
-let S = [5, 15, -30, 10, -5, 40, 10]
+let S = [5, 15, -30, 10, -5, 40, 10, -20]
 
-function L(arr) {
-  let tableRow = new Array(arr.length)
-  tableRow[0] = arr[0]
-  let max
+function findMax(arr) {
+  let max = 0
   let sum = arr[0]
   for (let i = 1; i < arr.length; i++) {
     if (sum + arr[i] > arr[i]) {
-      tableRow[i] = sum + arr[i]
-      sum = sum + arr[i]
-      max = sum
+      sum += arr[i]
+      if (sum > max) {
+        max = sum
+      }
     } else {
-      tableRow[i] = arr[i]
       sum = arr[i]
     }
   }
-
-  console.log(tableRow)
   return max
 }
 
-L(S)
+findMax(S)
