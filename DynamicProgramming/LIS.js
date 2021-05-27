@@ -16,4 +16,4 @@ function findLongestIncreasingSubsequence(x) {
   return max
 }
 
-findLongestIncreasingSubsequence(12)
+findLongestIncreasingSubsequence(array.length)

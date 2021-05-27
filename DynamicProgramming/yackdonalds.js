@@ -1,5 +1,5 @@
 /**
- * 6.3. Yuckdonald’s is considering opening a series of restaurants along Quaint Valley Highway (QVH).
+ * DPV 6.3. Yuckdonald’s is considering opening a series of restaurants along Quaint Valley Highway (QVH).
 The n possible locations are along a straight line, and the distances of these locations from the
 start of QVH are, in miles and in increasing order, m1, m2, . . . , mn. The constraints are as follows:
     • At each location, Yuckdonald’s may open at most one restaurant. The maximized profit from

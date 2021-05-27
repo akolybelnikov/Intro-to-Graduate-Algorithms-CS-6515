@@ -1,3 +1,4 @@
+// DPV 6.4
 const str = "Pebbling checkerboard. We are given checkerboard which has rows and columns, and has integer written each square."
 
 const withSpaces = /[^A-Za-z ]/gi

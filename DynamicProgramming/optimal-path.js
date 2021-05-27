@@ -1,5 +1,5 @@
 /**
- * 6.2. You are going on a long trip. You start on the road at mile post 0. Along the way there are n
+ * DPV 6.2. You are going on a long trip. You start on the road at mile post 0. Along the way there are n
 hotels, at mile posts a1 < a2 < · · · < an, where each ai is measured from the starting point. The
 only places you are allowed to stop are at these hotels, but you can choose which of the hotels
 you stop at. You must stop at the final hotel (at distance an), which is your destination.
@@ -22,4 +22,4 @@ function penalty(arr) {
   }
   console.log(stops)
 }
-penalty(hotel)
+penalty(hotels)
