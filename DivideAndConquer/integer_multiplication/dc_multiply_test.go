@@ -3,8 +3,7 @@ package integer_multiplication
 import "testing"
 
 func TestMultiply(t *testing.T) {
-	want := 2
-	if got := Multiply(1, 2); got != want {
-		t.Errorf("Multiply() = %q, want %q", got, want)
+	if got := Multiply(2, 2); got != 2 {
+		t.Errorf("Multiply() = %q, want %q", got, 2)
 	}
 }
