@@ -10,9 +10,6 @@ has sum zero).
 For the preceding example, the answer would be 10, −5, 40, 10, with a sum of 55.
 (Hint: For each j ∈ {1, 2, . . . , n}, consider contiguous subsequences ending exactly at position j.)
  */
-
-let S = [5, 15, -30, 10, -5, 40, 10, -20]
-
 function findMax(arr) {
   let max = 0
   let sum = arr[0]
@@ -29,4 +26,4 @@ function findMax(arr) {
   return max
 }
 
-findMax(S)
+module.exports = findMax

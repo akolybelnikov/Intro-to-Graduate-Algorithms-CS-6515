@@ -32,6 +32,7 @@ func Multiply(x, y uint) uint {
 	mr := Multiply(xr, yr)
 	mc := Multiply(xl+xr, yl+yr)
 
+	// ml × 2^max +(mc − ml − mr)×2^max/2 + mr
 	result := (ml << max) + ((mc - ml - mr) << (max / 2)) + mr
 
 	return result
